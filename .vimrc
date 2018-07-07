@@ -38,6 +38,9 @@ let g:lightline = {
       \ 'subseparator': { 'left': '⮁', 'right': '⮃' }
       \ }
 
+" setting of vim-go
+let g:go_fmt_command = "goimports"
+
 " setting of vim-markdown
 let g:vim_markdown_folding_disabled = 1
 
